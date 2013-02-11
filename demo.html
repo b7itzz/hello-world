@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+		
+		$(document).ready(function(e) {
+
+			$(".tester").ucDropDown({
+//					speed: 300,
+					dataAttr: "uctext"
+				});
+				
+	        });
+		
+		</script>
+
+    </head>
+    <body>
+
+	<div class="tester" data-uctext="Hello!"></div>    
+	<div class="tester" data-uctext="Hello3!"></div>    
+	<div class="tester" data-uctext="Hello6!"></div>    
+	<div class="tester" data-uctext="Hello88!"></div>    
+	<div class="tester" data-uctext="Hello99asdfasdfasdfasdfasdfasdf99<br>asdfasdfasdf!"></div>    
+    
+    </body>
+</html>
