@@ -4,7 +4,7 @@ body{margin: 30px;}
 
 .tester{height: 50px; width:140px; background-color:#096; float: left; margin-right:50px; padding:40px;} 
 
-.uc-dropdown{position: absolute;}
+.uc-dropdown{position: absolute; z-index:99999}
 .uc-dropdown #innerwrapper{
 	position:relative;
 	width:100%;
